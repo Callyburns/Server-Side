@@ -1,28 +1,13 @@
-/* Make the page fill the screen and center everything */
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Style the green play button */
-.play-button {
-  background-color: green;
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* green */
   color: white;
   border: none;
-  padding: 20px 40px;
-  font-size: 24px;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.play-button:hover {
-  background-color: darkgreen;
+button:hover {
+  background-color: #45a049;
 }

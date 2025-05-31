@@ -1,23 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  text-align: center;
-  padding: 50px;
+/* Make the page fill the screen and center everything */
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 .container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  flex-direction: column;
 }
 
-.grey-box {
-  background-color: grey;
-  padding: 20px;
+/* Style the green play button */
+.play-button {
+  background-color: green;
   color: white;
-  width: 300px;
-  border-radius: 8px;
-  text-align: center;
+  border: none;
+  padding: 20px 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: darkgreen;
 }
